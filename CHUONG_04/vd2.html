@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lộ Trình Học Đại Học</title>
+  </head>
+  <body>
+    <script>
+      // 1. Khai báo biến 'nam' và lấy giá trị nhập từ người dùng
+      let nam = parseInt(prompt("Nhập vào năm học của bạn (1 - 4):"));
+
+      // 2. Cấu trúc switch-case
+      switch (nam) {
+        case 1:
+          document.write("Năm 1: Học đại cương");
+          break;
+        case 2:
+          document.write("Năm 2: Học cơ sở ngành");
+          break;
+        case 3:
+          document.write("Năm 3: Học chuyên ngành");
+          break;
+        case 4:
+          document.write("Năm 4: Làm khóa luận tốt nghiệp");
+          break;
+        default:
+          // Xử lý khi nhập số lớn hơn 4 hoặc nhập sai dữ liệu
+          if (nam > 4) {
+            document.write("Đã ra trường hoặc học quá hạn!");
+          } else {
+            document.write("Vui lòng nhập số năm hợp lệ (ví dụ: 1, 2, 3, 4)");
+          }
+      }
+    </script>
+  </body>
+</html>

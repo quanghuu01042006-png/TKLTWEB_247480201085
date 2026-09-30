@@ -1,0 +1,13 @@
+h2 {
+  background-color: rgb(102, 73, 30);
+  font-size: 20px;
+}
+div.form-group {
+  background-color: #984d4d;
+  font-size: 30px;
+}
+input[type="number"] {
+  background-color: #4bb0b1; /* Màu nền bên trong ô nhập (ví dụ: màu trắng) */
+  color: #000000; /* Màu chữ khi gõ số vào */
+  border: 2px solid #000000; /* Màu viền của ô nhập */
+}
